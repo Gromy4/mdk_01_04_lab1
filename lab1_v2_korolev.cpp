@@ -19,9 +19,9 @@ private:
 // определение метода ввода
 void Complex::Read()
 {
-    cout << "Enter real : ";
+    cout << "Enter real : " << "\n";
     cin >> real;
-    cout << "Enter imaginary : ";
+    cout << "Enter imaginary : " << "\n";
     cin >> imaginary;
 }
 
@@ -60,17 +60,20 @@ int main()
 {
     Complex number;   // первый объект класса Complex
     number.Init(1, 3);
-    cout << "1 number =";
+    cout << "1 number = \n";
     number.Display();
     Complex num2;      // второй объект класса Complex
     num2.Read();
-    cout << "2 number =";
+    cout << "2 number = \n";
     num2.Display();
     number.Add(num2);  // прибавить значение второго  объекта к первому
-    std::cout << "Add =";
+    std::cout << "Add : \n";
     number.Display();
     number.Sub(num2);  // прибавить значение второго  объекта к первому
-    std::cout << "Sub =";
+    std::cout << "Sub : \n";
+    number.Display();
+    number.Mul(num2);
+    std:cout << "Mul : \n";
     number.Display();
     getchar();
     return 1;
