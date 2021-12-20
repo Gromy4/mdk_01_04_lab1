@@ -27,7 +27,7 @@ namespace N
         void Add(Complex x);  // прибавить комплексное число
         void Sub(Complex x);  // вычесть комплексное число
         void Mul(Complex x);  // умножить комплексное число
-        void Del(Complex x);
+        void Del(Complex x); // делить комлексное число
 	};
 }
 

@@ -19,23 +19,24 @@ int main()
     number.Display();
     Complex num2;      // второй объект класса Complex
     num2.Read();
-    cout << "2 number = \n";
+    cout << "\n 2 number = \n";
     num2.Display();
-    number.Add(num2);  // прибавить значение второго  объекта к первому
-    std::cout << "Add : \n";
+    number.Add(num2);  
+    std::cout << "\n Add : \n";
     number.Display();
     number.Set(1, 3);
-    number.Sub(num2);  // прибавить значение второго  объекта к первому
-    std::cout << "Sub : \n";
+    number.Sub(num2);  
+    std::cout << "\n Sub : \n";
     number.Display();
     number.Set(1, 3);
     number.Mul(num2);
-    std:cout << "Mul : \n";
+    std:cout << "\n Mul : \n";
     number.Display();
     number.Set(1, 3);
     number.Del(num2);
-    std::cout << "Del : \n";
+    std::cout << "\n Del : \n";
     number.Display();
+   
     getchar();
     return 1;
 }
