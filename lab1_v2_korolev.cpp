@@ -1,23 +1,17 @@
-﻿// инициализацию производить в конструкторе
-//init на set
-
-
-#include <conio.h>
+﻿#include <conio.h>
 #include <iostream>
 #include "Complex.h"
 using namespace std;
 using namespace N;
 
-// определение класса комплексных чисел
-
 int main()
 {
     
-    Complex number;   // первый объект класса Complex
+    Complex number;   // the first object of class Complex
     number.Set(1, 3);
     cout << "1 number = \n";
     number.Display();
-    Complex num2;      // второй объект класса Complex
+    Complex num2;      // second object of class Complex
     num2.Read();
     cout << "\n 2 number = \n";
     num2.Display();

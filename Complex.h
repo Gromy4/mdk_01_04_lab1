@@ -7,8 +7,8 @@ namespace N
 	class Complex
 	{
     private:
-        double real;  // вещественная часть
-        double imaginary;  // мнимая часть
+        double real;  // real part
+        double imaginary;  // imaginary part
 
     public:
         Complex() {
@@ -22,12 +22,12 @@ namespace N
         }
    
         void Set(int gg, int hh);
-        void Read();           // ввод с клавиатуры
-        void Display();        // вывод
-        void Add(Complex x);  // прибавить комплексное число
-        void Sub(Complex x);  // вычесть комплексное число
-        void Mul(Complex x);  // умножить комплексное число
-        void Del(Complex x); // делить комлексное число
+        void Read();           // keyboard input
+        void Display();        // conclusion
+        void Add(Complex x);  // add complex number
+        void Sub(Complex x);  // subtract complex number
+        void Mul(Complex x);  // multiply complex number
+        void Del(Complex x); // divide complex number
 	};
 }
 
